@@ -96,11 +96,11 @@ This mirrors real-world recruiter screening logic without proprietary algorithms
 
 Example:
 
+One Liner:
+cd ~/Desktop/ats-tracker-local && source .venv/bin/activate && streamlit run app.py
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py
-
-One Liner:
-cd ~/Desktop/ats-tracker-local && source .venv/bin/activate && streamlit run app.py
